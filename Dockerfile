@@ -8,4 +8,4 @@ WORKDIR /
 RUN git clone https://github.com/Ganapati/RsaCtfTool.git
 WORKDIR /RsaCtfTool
 RUN pip install -r "requirements.txt"
-CMD ["./RsaCtfTool.py"]
+ENTRYPOINT ["./RsaCtfTool.py"]
